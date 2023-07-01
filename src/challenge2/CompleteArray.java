@@ -44,7 +44,7 @@ public class CompleteArray {
                     break;
                 }
             }
-             if (!isFound) break;;
+             if (!isFound) break;
 
             count++;
         }

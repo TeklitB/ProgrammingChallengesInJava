@@ -1,7 +1,5 @@
 package challenge1;
 
-import java.util.Arrays;
-
 public class PointOfEquilibrium {
     /*
     Consider an array A with n of positive integers. An integer idx is called a POE (point of equilibrium) of A,
