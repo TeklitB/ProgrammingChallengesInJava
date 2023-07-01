@@ -1,6 +1,6 @@
 package codility.iterations;
 
-import static iterations.BinaryGap.longestBinaryGap;
+import static codility.iterations.BinaryGap.longestBinaryGap;
 
 public class Main {
     public static void main(String[] args) {
