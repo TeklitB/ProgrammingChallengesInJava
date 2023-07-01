@@ -1,5 +1,7 @@
 package challenge2;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -22,18 +24,66 @@ public class Main {
         // --------------------------------------------------
 
         // -------------- Complete array test
-        System.out.println(CompleteArray.isComplete(new int[] {-5, 6, 2, 3, 2, 4, 5, 11, 8, 7}));
-        System.out.println(CompleteArray.isComplete(new int[] {5, 7, 9, 13}));
-        System.out.println(CompleteArray.isComplete(new int[] {2, 2}));
-        System.out.println(CompleteArray.isComplete(new int[] {2, 6, 3, 4}));
+//        System.out.println(CompleteArray.isComplete(new int[] {-5, 6, 2, 3, 2, 4, 5, 11, 8, 7}));
+//        System.out.println(CompleteArray.isComplete(new int[] {5, 7, 9, 13}));
+//        System.out.println(CompleteArray.isComplete(new int[] {2, 2}));
+//        System.out.println(CompleteArray.isComplete(new int[] {2, 6, 3, 4}));
         // ----------------------------------
 
-        // -------------- Complete array test
-
+        // -------------- prime product test
+//        System.out.println(PrimeProduct.isPrimeProduct(22));
+//        System.out.println(PrimeProduct.isPrimeProduct(33));
+//        System.out.println(PrimeProduct.isPrimeProduct(0));
+//        System.out.println(PrimeProduct.isPrimeProduct(-22));
+//        System.out.println(PrimeProduct.isPrimeProduct(9));
+//        System.out.println(PrimeProduct.isPrimeProduct(4));
+//        System.out.println(PrimeProduct.isPrimeProduct(6));
+//        System.out.println(PrimeProduct.isPrimeProduct(121));
         // ----------------------------------
 
-        // -------------- Complete array test
+        // -------------- balanced array test
+//        System.out.println(BalancedArray.isBalancedArray(new int[] {2, 3, 6, 7}));
+//        System.out.println(BalancedArray.isBalancedArray(new int[] {6, 7, 2, 3, 12}));
+//        System.out.println(BalancedArray.isBalancedArray(new int[] {7, 15, 2, 3}));
+//        System.out.println(BalancedArray.isBalancedArray(new int[] {16, 6, 2, 3}));
+        // ----------------------------------
 
+        // -------------- hasKSmallFactors test
+//        System.out.println(KSmallFactors.hasKSmallFactors(10, 20));
+//        System.out.println(KSmallFactors.hasKSmallFactors(7, 30));
+//        System.out.println(KSmallFactors.hasKSmallFactors(7, 20));
+//        System.out.println(KSmallFactors.hasKSmallFactors(10, 22));
+//        System.out.println(KSmallFactors.hasKSmallFactors(6, 14));
+//        System.out.println(KSmallFactors.hasKSmallFactors(6, 30));
+        // ----------------------------------
+
+        // -------------- fill array test
+//        System.out.println(Arrays.toString(FillArray.fillArray(new int[] {1,2,3,5, 9, 12,-2,-1}, 3, 10)));
+//        System.out.println(Arrays.toString(FillArray.fillArray(new int[] {4, 2, -3, 12}, 1, 5)));
+//        System.out.println(Arrays.toString(FillArray.fillArray(new int[] {2, 6, 9, 0, -3}, 0, 4)));
+//
+//        System.out.println(Arrays.toString(FillArray.fill(new int[] {1,2,3,5, 9, 12,-2,-1}, 3, 10)));
+//        System.out.println(Arrays.toString(FillArray.fill(new int[] {4, 2, -3, 12}, 1, 5)));
+//        System.out.println(Arrays.toString(FillArray.fill(new int[] {2, 6, 9, 0, -3}, 0, 4)));
+        // ----------------------------------
+
+        // -------------- balanced array test
+        System.out.println(HollowArray.isHollow(new int[] {1,2,4,0,0,0,4,5}));
+        System.out.println(HollowArray.isHollow(new int[] {1,2,4,9,0,0,0,0,0,9,3,4, 5}));
+        System.out.println(HollowArray.isHollow(new int[] {1,2,4,0,0,0,3,4,5}));
+        System.out.println(HollowArray.isHollow(new int[] {1,2,0,0,0,3,4,5}));
+        System.out.println(HollowArray.isHollow(new int[] {1,2,4,9,0,0,0,3,4, 5}));
+        System.out.println(HollowArray.isHollow(new int[] {1,2,0,0,3,4}));
+        System.out.println(HollowArray.isHollow(new int[] {1,2,0,0,2,3,4}));
+        System.out.println(HollowArray.isHollow(new int[] {1,2,0,0}));
+        System.out.println(HollowArray.isHollow(new int[] {}));
+        System.out.println(HollowArray.isHollow(null));
+        // ----------------------------------
+
+        // -------------- balanced array test
+        // ----------------------------------
+
+        // -------------- balanced array test
         // ----------------------------------
     }
 }
